@@ -1,0 +1,15 @@
+// criar migration
+
+    yarn sequelize migration:create --name=create-users
+
+// executar migration
+
+    yarn sequelize db:migrate
+
+// desfazer ultima migration
+
+    yarn sequelize db:migrate:undo
+
+// desfazer todas as migrations
+
+    yarn sequelize db:migrate:undo:all
