@@ -1,0 +1,17 @@
+// prod
+
+    bcryptjs - gera criptografia (da senha do usuário, por exemplo)
+    express - framework base
+    jsonwebtoken - gera token de autenticação de usuário
+    multer - upload de arquivos
+    mysql2 - usar mysql na aplicação node
+    sequelize - cuida da conexão com banco de dados (migrations) 
+    yup - validação dos dados que serão gravados no banco (required, nullable, minimo de caracteres, etc)
+    date-fns@next - lida com datas
+
+// dev
+
+    nodemon - reinicia a aplicação automaticamente ao salvar um arquivo 
+    sequelize-cli - interface de linha de comando do sequelize (comandos de migrate, etc)
+    sucrase - faz o node suportar a sintaxe mais recente do javascript (import from, export default, etc)
+    
