@@ -25,7 +25,7 @@ class Database {
 
     mongo() {
         this.mongoConnection = mongoose.connect(
-            "mongodb+srv://dan92111:<password>@cluster0-6o7mm.mongodb.net/test?retryWrites=true&w=majority",
+            "mongodb://daniel-sanchez:gobarberdaniel@cluster0-shard-00-00-6o7mm.mongodb.net:27017,cluster0-shard-00-01-6o7mm.mongodb.net:27017,cluster0-shard-00-02-6o7mm.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
             {useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: true}
         )
     }
