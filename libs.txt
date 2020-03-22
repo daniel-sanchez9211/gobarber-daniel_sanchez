@@ -5,6 +5,7 @@
     jsonwebtoken - gera token de autenticação de usuário
     multer - upload de arquivos
     mysql2 - usar mysql na aplicação node
+    mongoose - usar mongodb na aplicação node
     sequelize - cuida da conexão com banco de dados (migrations) 
     yup - validação dos dados que serão gravados no banco (required, nullable, minimo de caracteres, etc)
     date-fns@next - lida com datas
