@@ -9,6 +9,10 @@
     sequelize - cuida da conexão com banco de dados (migrations) 
     yup - validação dos dados que serão gravados no banco (required, nullable, minimo de caracteres, etc)
     date-fns@next - lida com datas
+    nodemailer - enviar e-mails
+    express-handlebars - integração do express com handlebars (para criação do template dos emails)
+    nodemailer-express-handlebars - integração entre express, handlebars e nodemailer (para criação do template dos emails)
+    
 
 // dev
 
