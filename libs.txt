@@ -1,5 +1,6 @@
 // prod
 
+    jwt - gera token autenticação (login do usuário)
     bcryptjs - gera criptografia (da senha do usuário, por exemplo)
     express - framework base
     jsonwebtoken - gera token de autenticação de usuário
@@ -12,6 +13,8 @@
     nodemailer - enviar e-mails
     express-handlebars - integração do express com handlebars (para criação do template dos emails)
     nodemailer-express-handlebars - integração entre express, handlebars e nodemailer (para criação do template dos emails)
+    redis - banco chave-valor que armazena os registros de e-mail enviados (precisa do docker)
+    bee-queue - gerencia as filas de envio e retentativa de envio de e-mail (ou outros trabalhos em segundo-plano) juntamente com o redis (precisa do docker)
     
 
 // dev
